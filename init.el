@@ -112,7 +112,16 @@
 (use-package company
   :defer t
   :config
+  (setq company-minimum-prefix-length 1)
+  (setq company-idle-delay 0)
   (add-hook 'after-init-hook 'global-company-mode))
+
+;; python backend for company
+(setq python-shell-interpreter "python3")
+(use-package company-jedi
+  :after company
+  :config
+  (add-to-list 'company-backends 'company-jedi))
 
 ;; lsp mode
 (use-package lsp-mode
@@ -141,9 +150,12 @@
                          (company-mode 1)
 						 (electric-pair-mode t)
                          (require 'lsp-pyright)
+   						 (pyvenv-autoload)
                          (lsp))))
 
-
+;; python env
+(use-package pyvenv
+  :defer t)
 ;; emmet mode
 (use-package emmet-mode
   :defer t)

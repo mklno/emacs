@@ -2,3 +2,4 @@ elpa/
 .cache/
 .dap-breakpoints
 .lsp-session-v1
+.python-environments
