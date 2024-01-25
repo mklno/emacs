@@ -1,0 +1,28 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/mklno/projects/" . "lsp/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/mklno/projects/lsp/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "main.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/mklno/projects/lsp/" (26034 8427 732129 503000) "./" "index.html" "../" "main.py")
+
+ ("/home/mklno/projects/" (26034 7433 938157 923000) "gesture/" "networking/" "kafkaa/" "./" ".vscode/" "rust/" ".emacs.d/" "dotfiles/" "shell-scripts/" "walletTracker/" "../" "react-foundations/" "movieTracker/" "dsa/" "flask/" "lsp/")
+
+ ("/home/mklno/" (26034 11639 287379 803000) ".pki/" ".mozilla/" ".swp" ".cargo/" "Documents/" "Music/" ".fonts/" ".viminfz.tmp" ".yarnrc" "study/" "Videos/" ".dmrc" ".yt-local/" ".java/" ".tmux.conf" ".xsession-errors.old" ".keras/" ".node_repl_history" ".bash_history-04358.tmp" ".youtube-local/" ".gitconfig" ".thunderbird/" ".viminfo.tmp" ".dotnet/" ".rustup/" ".dotfiles/" ".lesshst" "./" ".vscode/" ".cache/" ".bash_logout" "backup/" ".password-store/" "thoughts/" ".yarn/" "go/" ".spotdl/" ".emacs.d/" ".w3m/" ".npm/" ".themes/" ".Xauthority" ".gconf/" ".ICEauthority" "imgs/" ".profile" ".vim/" ".sudo_as_admin_successful" ".personal/" ".vimrc" "../" "projects/" ".python_history" "Pictures/" ".gnupg/" ".sqlite_history" ".jobs" ".expo/" ".viminfo" "notes/" ".bash_history" ".aliases" "others/" ".viminfy.tmp" ".android/" ".deepface/" ".bookmarks" "snap/" "Downloads/" ".ssh/" ".xsession-errors" ".bettercap.history" ".local/" ".bashrc" ".zshenv" ".wget-hsts" ".snap/" ".config/" "todo/" ".zcompdump" ".icons/" ".ipython/" ".fltk/" ".jupyter/" ".aws/")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

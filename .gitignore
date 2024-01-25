@@ -1,0 +1,4 @@
+elpa/
+.cache/
+.dap-breakpoints
+.lsp-session-v1
