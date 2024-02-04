@@ -98,6 +98,9 @@
 ;; journal
 (require 'journal)
 
+;;
+(require 'wakatime-mode)
+(global-wakatime-mode)
 ;; formatter
 (use-package format-all
   :commands format-all-mode
@@ -176,4 +179,6 @@
    web-mode-enable-auto-indentation t)
   :mode
   (".html$" "*.php$" "*.tsx"))
+
+;; wakatime
 
