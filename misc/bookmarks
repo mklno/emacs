@@ -2,7 +2,11 @@
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("Flask" (filename . "~/projects/flask/flask.org")
+(("org-capture-last-stored"
+ (filename . "~/notes/20240904190621-circleback_ai.org")
+ (front-context-string) (rear-context-string . ": CircleBack.ai\n")
+ (position . 91) (last-modified 26328 25174 790227 986000))
+("Flask" (filename . "~/projects/flask/flask.org")
  (front-context-string . "#+TITLE: Flask\n#") (rear-context-string)
  (position . 1) (last-modified 26034 10872 196986 264000))
 ("Networking" (filename . "~/projects/networking/readme.org")

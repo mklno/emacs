@@ -1,16 +1,16 @@
 
 ;; ----- smex-history -----
 (
+ org-display-inline-images
  cd
  5x5
  arp
  dbx
  dig
  erc
- ert
 )
 
 ;; ----- smex-data -----
 (
- 
+ (org-display-inline-images . 1)
 )

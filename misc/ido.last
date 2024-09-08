@@ -2,26 +2,30 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/mklno/projects/" . "lsp/")
+ ("/home/" . "mklno/")
+ ("/" . "home/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/mklno/projects/lsp/"
+ "/home/mklno/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "main.py"
+ "ok.org"
+ ".bettercap.history"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/mklno/projects/lsp/" (26034 8427 732129 503000) "./" "index.html" "../" "main.py")
+ ("/home/" (25724 42541 949095 621000) "./" "../" "mklno/")
 
- ("/home/mklno/projects/" (26034 7433 938157 923000) "gesture/" "networking/" "kafkaa/" "./" ".vscode/" "rust/" ".emacs.d/" "dotfiles/" "shell-scripts/" "walletTracker/" "../" "react-foundations/" "movieTracker/" "dsa/" "flask/" "lsp/")
+ ("/home/mklno/" (26218 37661 318428 151000) ".pki/" ".mozilla/" ".swp" ".cargo/" "Documents/" "Music/" ".fonts/" ".viminfz.tmp" ".wakatime.bdb" ".yarnrc" "study/" "Videos/" ".dmrc" ".yt-local/" ".java/" ".tmux.conf" ".xsession-errors.old" ".keras/" ".node_repl_history" ".bash_history-04358.tmp" "resources/" ".gitconfig" ".viminfo.tmp" ".dotnet/" ".rustup/" ".swo" "mind/" ".lesshst" "./" ".vscode/" ".selected_editor" "video_20240610_191957.mp4" ".cache/" ".bash_logout" "backup/" ".texlive2021/" ".password-store/" "thoughts/" ".yarn/" "go/" ".emacs.d/" ".quokka/" ".w3m/" ".npm/" ".themes/" ".Xauthority" ".gconf/" ".ICEauthority" "imgs/" ".profile" ".vim/" ".wakatime/" ".sudo_as_admin_successful" ".vimrc" ".shutter/" "../" ".newsboat/" "projects/" ".python_history" "Pictures/" ".gnupg/" ".sqlite_history" ".expo/" ".gdbinit" ".viminfo" "notes/" ".wakatime.cfg" ".bash_history" ".aliases" ".viminfy.tmp" ".android/" ".ipfs/" "snap/" "Downloads/" "mklno/" ".swn" ".wallaby/" ".ssh/" "CAT/" ".swl" ".xsession-errors" ".bettercap.history" ".local/" ".bashrc" ".zshenv" ".wget-hsts" ".config/" "todo/" ".swm" ".zcompdump" ".postman/" ".icons/" ".ipython/" ".fltk/" ".jupyter/" ".aws/")
 
- ("/home/mklno/" (26034 11639 287379 803000) ".pki/" ".mozilla/" ".swp" ".cargo/" "Documents/" "Music/" ".fonts/" ".viminfz.tmp" ".yarnrc" "study/" "Videos/" ".dmrc" ".yt-local/" ".java/" ".tmux.conf" ".xsession-errors.old" ".keras/" ".node_repl_history" ".bash_history-04358.tmp" ".youtube-local/" ".gitconfig" ".thunderbird/" ".viminfo.tmp" ".dotnet/" ".rustup/" ".dotfiles/" ".lesshst" "./" ".vscode/" ".cache/" ".bash_logout" "backup/" ".password-store/" "thoughts/" ".yarn/" "go/" ".spotdl/" ".emacs.d/" ".w3m/" ".npm/" ".themes/" ".Xauthority" ".gconf/" ".ICEauthority" "imgs/" ".profile" ".vim/" ".sudo_as_admin_successful" ".personal/" ".vimrc" "../" "projects/" ".python_history" "Pictures/" ".gnupg/" ".sqlite_history" ".jobs" ".expo/" ".viminfo" "notes/" ".bash_history" ".aliases" "others/" ".viminfy.tmp" ".android/" ".deepface/" ".bookmarks" "snap/" "Downloads/" ".ssh/" ".xsession-errors" ".bettercap.history" ".local/" ".bashrc" ".zshenv" ".wget-hsts" ".snap/" ".config/" "todo/" ".zcompdump" ".icons/" ".ipython/" ".fltk/" ".jupyter/" ".aws/")
+ ("/home/mklno/thoughts/" (26023 54826 284832 559000) "misc/" "./" "2023/" "../" "journal/" ".stfolder/" "2024/" "kakfaa/")
+
+ ("/home/mklno/thoughts/journal/" (26218 37686 792661 348000) "20240128.gpg" "20240605.gpg" "20240602.gpg" "20240303.gpg" "20240418.gpg" "20240123.gpg" "20240204.gpg" "20240220.gpg" "20240118.gpg" "20240116.gpg" "20240513.gpg" "20240129.gpg" "20240205.gpg" "20240208.gpg" "20240113.gpg" "20240207.gpg" "20240117.gpg" "20240611.gpg" "20240610.gpg" "20240304.gpg" "20240215.gpg" "20240425.gpg" "20240510.gpg" "20240228.gpg" "./" "20240119.gpg" "20240608.gpg" "20240531.gpg" "20240326.gpg" "20240201.gpg" "20240125.gpg" "20240606.gpg" "20240520.gpg" "20240319.gpg" "20240225.gpg" "20240601.gpg" "20240424.gpg" "20240426.gpg" "20240122.gpg" "20240530.gpg" "20240110.gpg" "20240528.gpg" "20240325.gpg" "20240327.gpg" "20240131.gpg" "20240603.gpg" "20240212.gpg" "20240206.gpg" ".git/" "20240127.gpg" "20240609.gpg" "20240114.gpg" "20240120.gpg" "../" "20240214.gpg" "20240126.gpg" "20240604.gpg" "20240124.gpg" "20240121.gpg" "20240112.gpg" "20240130.gpg" "20240115.gpg" "20240111.gpg" "20240612.gpg")
 )
 
 ;; ----- ido-unc-hosts-cache -----

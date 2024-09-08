@@ -101,9 +101,12 @@
 ;; wakatime 
 (require 'wakatime-mode)
 (global-wakatime-mode)
+;; cdlatex
+(require 'cdlatex)
 
 ;; code-block
 (require 'code-block)
+(require 'export-css)
 ;; formatter
 (use-package format-all
   :commands format-all-mode
@@ -188,7 +191,7 @@
   :init
   (setq org-roam-v2-ack t)
   :custom
-  (org-roam-directory "~/Notes")
+  (org-roam-directory "~/notes")
   (org-roam-completion-everywhere t)
   :bind (("C-c n l" . org-roam-buffer-toggle)
 		 ("C-c n f" . org-roam-node-find)
@@ -197,3 +200,37 @@
 		 ("C-M-i" . completion-at-point))
   :config
   (org-roam-setup))
+
+(unless (package-installed-p 'swiper)
+  (package-refresh-contents)
+  (package-install 'swiper))
+
+(unless (package-installed-p 'ivy)
+  (package-refresh-contents)
+  (package-install 'ivy))
+
+(unless (package-installed-p 'dash)
+  (package-refresh-contents)
+  (package-install 'dash))
+
+(unless (package-installed-p 's)
+  (package-refresh-contents)
+  (package-install 's))
+
+;; Load Ivy and Swiper
+(require 'ivy)
+(require 'swiper)
+
+;; Enable Ivy mode
+(ivy-mode 1)
+
+;; Optional: Bind swiper to a key for easy access
+(global-set-key (kbd "C-s") 'swiper)
+
+;; Load custom conference image function
+(load "~/.emacs.d/functions/conference-image.el")
+
+;; Optionally bind the function to a key in org-mode
+(with-eval-after-load 'org
+  (define-key org-mode-map (kbd "C-c i") 'bjm/insert-conference-image))
+
